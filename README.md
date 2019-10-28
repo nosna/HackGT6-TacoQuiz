@@ -1,6 +1,6 @@
 # HackGT6-TacoQuiz
 
-**Interactive Language Learning Alexa Skill for all Passionate Spanish Learner**
+**Interactive Language Learning Alexa Skill for all Passionate SSL(Spanish as Second Language) Students**
 
 ***Created by: Runsheng Huang, Jinchen Ma, David Pan, Zhen Jiang, Leyan Pan***
 
