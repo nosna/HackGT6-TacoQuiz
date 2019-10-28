@@ -29,16 +29,16 @@
 
 
 ### Inspiration
-Speaking of learning a new language, we usually think of watching long tedious YouTube videos, or holding a massive language intro book in your hand. But how many people have ever thought of the black little sound box located somewhere in the house -- Amazon Echo? Today we introduce a brand new way to learn a new language. It is interactive, instant-feedback, and most importantly, it makes the best use of your fragmented time. If you are cooking in the kitchen, learn Spanish as well as cooking your food.
+Speaking of learning a new language, we usually think of watching long tedious YouTube videos, or holding a massive language intro book in your hand. But how many people have ever thought of the black little sound box located somewhere in the house -- Amazon Echo? Today we introduce a brand new way to learn a new language. It is interactive, instant-feedback, and most importantly, it makes the best use of your fragmented time. If you are cooking in the kitchen, you can learn Spanish while making your delicious tacos.
 
 ### What It Does
-This Alexa Skill gives user vocabulary quizzes. The user will be prompted to choose the length of the quiz, i.e., how many words the person wants to be tested on. The user will then be prompted to speak out either a Spanish word or an English word upon given the meaning of the word in the other language. Alexa will then give instant feedback on whether or not the user is correct. If given the wrong answers in two consecutive runs, Alexa will give user the correct answer.
+This Alexa Skill gives user Spanish vocabulary quizzes. User will be prompted to choose how many vocabs he/she wants to be tested on. The user will then be prompted to say either a Spanish word or an English word upon given the meaning of the word in the other language. Alexa will then give instant feedback on whether or not the user is correct. If given the wrong answers in two consecutive runs, Alexa will give user the correct answer.
 
 ### How We Built It
-We utilized the service provided by AWS. We apply Python as our backend sources and our own endpoint for hosting Alexa. Then, we combine intents and handler methods that are unique to Alexa to build a function that prompt the user to test their knowledge in Spanish given the English words that exist in our database.
+Utilizing AWS platform and Alexa developer console, we implemented the Lambda function in Python as our own endpoint for hosting Alexa. Then, we combine intents and handler methods that are unique to Alexa to build a function that prompts the user to test their knowledge in Spanish given the English words that exist in our database.
 
 ### Challenges We Ran Into
-The first challenge was how should we determine what we need. At the starting stage of our project, we spend an entire night on setting up the development environment of DynamoDB with Java on our machines. However, it turned out that using local DynamoDB environment is not absolutely required. We then switch to full cloud development on the next morning and made substantial progress thereafter.
+The first challenge was to determine the technologies we should use. At the starting stage of our project, we spend an entire night on setting up the development environment of DynamoDB with Java on our machines. However, it turned out that using local DynamoDB environment is not absolutely required. We then switch to full cloud development with Python on the next morning and made substantial progress thereafter.
 
 We have no experience in building a Alexa Skill before. The biggest challenge we encountered was understanding the methods, logic, and control flow that are provided and required by Alexa. We spent the most debugging time on dealing with parameter passing between IntentHandler methods to create the control flow we desired. After countless rounds of attempting new fixes, looking up documents and examples, we finally nailed our goal of building a fully functional vocabulary tester.
 
